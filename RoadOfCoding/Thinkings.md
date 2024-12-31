@@ -32,3 +32,5 @@
 |[103. Binary Tree Zigzag Level Order Traversal](https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/description/)|Medium|[Thinking](https://github.com/JustSleepTilSunSet/basic_algorithm/blob/main/RoadOfCoding/Tree/owner_solutions/Week4_Thinking.md)|Y|
 |[105. Construct Binary Tree from Preorder and Inorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/description/)|Medium|[Thinking](https://github.com/JustSleepTilSunSet/basic_algorithm/blob/main/RoadOfCoding/Tree/owner_solutions/105.%20Construct%20Binary%20Tree%20from%20Preorder%20and%20Inorder%20Traversal/Thinking.md)|N|
 |[112. Path Sum](https://leetcode.com/problems/path-sum/)|Easy|[Thinking](https://github.com/JustSleepTilSunSet/basic_algorithm/blob/main/RoadOfCoding/Tree/owner_solutions/112.%20Path%20Sum/Thinking.md)|Y|
+| [101. Symmetric Tree](https://leetcode.com/problems/symmetric-tree/description/) | Easy | [Thinking](https://github.com/JustSleepTilSunSet/Basic-algorithm/tree/main/RoadOfCoding/Tree/owner_solutions/101.%20Symmetric%20Tree) | - |
+
