@@ -1,0 +1,39 @@
+int removeDuplicates(int* nums, int numsSize) {
+    int i = 0, j = 0;
+    int temp = 0, time = 0, count = 0;
+
+    for (i = 0; i < numsSize; i++) {
+        temp = nums[i];
+
+        if (temp != -200) {
+            for (j = 0; j < numsSize; j++) {
+                if (j > i) {
+                    if (temp == nums[j])
+                        nums[j] = -200;
+                }
+            }
+        }
+    }
+
+    for (i = 0; i < numsSize; i++) {
+        if (nums[i] != -200)
+            count++;
+    }
+
+    for (i = 0; i < numsSize; i++) {
+        temp = nums[i];
+        if (temp == -200) {
+            for (j = 0; j < numsSize; j++) {
+                if (j > i) {
+                    if (nums[j] != -200) {
+                        nums[i] = nums[j];
+                        nums[j] = -200;
+                        j = numsSize;
+                    }
+                }
+            }
+        }
+    }
+
+    return count;
+}
