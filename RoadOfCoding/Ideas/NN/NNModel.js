@@ -31,10 +31,6 @@ class NNModel {
         this.output = undefined
     }
 
-    set_input(value){
-        this.input = value
-        return this
-    }
 
     predict(input) {
         this.results = this.weights.map((w, i) => {
