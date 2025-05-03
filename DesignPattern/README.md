@@ -6,6 +6,6 @@
 ### Goal:
   - **What** : Need to improve code quality in project.
   - **How**: practice design patterns.
-    - [ ] Starategy pattern.
+    - [x] Starategy pattern.
     - [x] Factor pattern.
   - **Why**: job requirements.
